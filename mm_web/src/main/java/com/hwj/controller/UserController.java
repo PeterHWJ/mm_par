@@ -14,7 +14,6 @@ public class UserController extends HttpServlet {
 
     private UserService userService = new UserService();
 
-
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String userName = req.getParameter("userName");
